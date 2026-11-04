@@ -1,0 +1,9 @@
+pref-title = ActivityWatcher Sender
+pref-enabled =
+    .label = Send Zotero activity to ActivityWatch
+pref-server-url = ActivityWatch server
+pref-server-url-help = Must be on this computer (127.0.0.1 or localhost). Any other address is refused.
+pref-interval = Heartbeat every (seconds, 5–120)
+pref-send-titles =
+    .label = Include item titles and attachment file names
+pref-send-titles-help = Titles are stored in the local ActivityWatch database, which aw-sync copies to your other computers.

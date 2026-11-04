@@ -1,0 +1,42 @@
+<linkset>
+  <html:link rel="localization" href="__addonRef__-preferences.ftl" />
+</linkset>
+<groupbox id="activitywatcher-sender-prefs">
+  <label><html:h2 data-l10n-id="pref-title"></html:h2></label>
+  <description>Version __buildVersion__</description>
+
+  <checkbox preference="__prefsPrefix__.enabled" data-l10n-id="pref-enabled" />
+
+  <hbox align="center">
+    <html:label
+      for="activitywatcher-sender-serverURL"
+      data-l10n-id="pref-server-url"
+    ></html:label>
+    <html:input
+      type="text"
+      id="activitywatcher-sender-serverURL"
+      preference="__prefsPrefix__.serverURL"
+    />
+  </hbox>
+  <description data-l10n-id="pref-server-url-help"></description>
+
+  <hbox align="center">
+    <html:label
+      for="activitywatcher-sender-interval"
+      data-l10n-id="pref-interval"
+    ></html:label>
+    <html:input
+      type="number"
+      min="5"
+      max="120"
+      id="activitywatcher-sender-interval"
+      preference="__prefsPrefix__.intervalSeconds"
+    />
+  </hbox>
+
+  <checkbox preference="__prefsPrefix__.sendTitles" data-l10n-id="pref-send-titles" />
+  <description data-l10n-id="pref-send-titles-help"></description>
+
+  <separator class="thin" />
+  <description id="activitywatcher-sender-status">…</description>
+</groupbox>
