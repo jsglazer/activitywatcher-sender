@@ -1,5 +1,13 @@
 # ActivityWatcher Sender
 
+[![GitHub release](https://img.shields.io/github/v/release/jsglazer/activitywatcher-sender?logo=github)](https://github.com/jsglazer/activitywatcher-sender/releases)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jsglazer/activitywatcher-sender/blob/main/LICENSE)
+[![Made with Claude](https://img.shields.io/badge/Made_with-Claude-D97756?logo=anthropic)](https://claude.ai)
+[![Gemini Flash Antigravity](https://img.shields.io/badge/Gemini%20Flash-Antigravity-4f86f7?logo=google-gemini&logoColor=white)](https://github.com/google-gemini)
+[![CI](https://github.com/jsglazer/activitywatcher-sender/actions/workflows/ci.yml/badge.svg)](https://github.com/jsglazer/activitywatcher-sender/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/jsglazer/activitywatcher-sender/actions/workflows/codeql.yml/badge.svg)](https://github.com/jsglazer/activitywatcher-sender/actions/workflows/codeql.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/jsglazer/activitywatcher-sender/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jsglazer/activitywatcher-sender)
+
 A Zotero 7–10 plugin that tells your local [ActivityWatch](https://activitywatch.net) server what you are doing in Zotero, so your time in Zotero can be reported **by collection** — e.g. `My Library/Classes/2026-B/RD - POGO 801`.
 
 ActivityWatch's window watcher only sees Zotero's window title, which shows a collection's leaf name in the library view and only the PDF file name (or "title - authors - year") in a reader tab — never the collection. This plugin fills that gap. It was built to feed the class-tracking dashboards in [activity-watch](https://github.com/jsglazer/activity-watch).
